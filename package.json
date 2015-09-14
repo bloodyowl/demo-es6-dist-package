@@ -1,0 +1,23 @@
+{
+  "name": "demo-es6-dist-package",
+  "version": "1.0.0",
+  "description": "demo",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel --stage 0 lib --out-dir dist",
+    "test": "echo 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bloodyowl/test-vvo"
+  },
+  "author": "bloodyowl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bloodyowl/test-vvo/issues"
+  },
+  "homepage": "https://github.com/bloodyowl/test-vvo",
+  "dependencies": {
+    "lodash": "^3.10.1"
+  }
+}
